@@ -1,4 +1,4 @@
-# js-task1
+# js-task2
 
 #Start.NG JavaScript Task 2
 
