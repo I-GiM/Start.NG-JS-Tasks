@@ -13,7 +13,7 @@ function interestCalculator(array) {
         else if (item.principal >= 2500 && item.time >= 3)
             rate = 4;
         else if (item.principal < 2500 || item.time <= 1)
-            rate = 3;
+            rate = 2;
         else
             rate = 1;
         interest = (item.principal * rate * item.time) / 100;
@@ -25,6 +25,6 @@ function interestCalculator(array) {
         });
     });
     console.log(interestData);
-    
+    return interestData;
 };
 interestCalculator(data);
