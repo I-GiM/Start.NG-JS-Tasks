@@ -8,7 +8,7 @@ let interestData = [];
 
 function interestCalculator(array) {
     array.forEach((item) => {
-        if (item.principal >= 2500 && item.time > 1 < 3)
+        if (item.principal >= 2500 && item.time > 1&& item.time < 3)
             rate = 3;
         else if (item.principal >= 2500 && item.time >= 3)
             rate = 4;
