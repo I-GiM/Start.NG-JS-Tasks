@@ -21,5 +21,5 @@ Sort = (arg) => {
     }
     console.log(compile);
 }
-Sort(20);
+Sort(5000); //Hehehehehe
 Sort(100);
